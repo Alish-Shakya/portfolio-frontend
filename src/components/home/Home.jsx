@@ -20,11 +20,14 @@ const Home = () => {
         </p>
         <div className="hidden  ml-15 mt-20 md:flex justify-center md:justify-start gap-10 ">
           <a
-            href="#contact"
+            href="https://wa.me/9779761814913?text=Hi%20Alish!%20I%20am%20interested%20in%20your%20services."
+            target="_blank"
+            rel="noopener noreferrer"
             className="px-8 py-3 border-1 border-green-400 text-white font-semibold rounded-lg transform hover:-translate-y-1 transition duration-400"
           >
             Hire Me
           </a>
+
           <a
             href="/path-to-your-cv.pdf"
             download

@@ -134,7 +134,7 @@ const Projects = () => {
               animate="visible"
               exit="exit"
               transition={{ duration: 0.6 }}
-              className="absolute w-[90%] rounded-xl border border-green-500 
+              className="absolute w-[90%] rounded-xl border-2 border-green-500 
                          flex flex-col overflow-hidden bg-[#0f0f0f]/40 backdrop-blur-sm"
             >
               <div className="w-full overflow-hidden flex justify-center items-center">

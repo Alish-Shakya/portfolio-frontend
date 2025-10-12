@@ -29,9 +29,19 @@ const iconvariants = (duration) => ({
 const Technologies = () => {
   return (
     <>
-      <h2 className="mt-10 text-2xl md:text-5xl text-center text-green-400">
-        Tools & Technologies
-      </h2>
+      <div className="text-center md:mb-16">
+        <h2 className="mt-10 text-2xl md:text-4xl lg:text-6xl font-bold text-white leading-tight">
+          The Tools That Empower My <br />
+          <span className="bg-gradient-to-l from-green-600 to-white bg-clip-text text-transparent">
+            Creativity and Code.
+          </span>
+        </h2>
+        <p className="text-gray-300 text-base sm:text-lg md:text-xl mt-6 max-w-3xl mx-auto">
+          Dive into the set of tools and technologies I work with to bring ideas
+          to life. Each one represents the skills, precision, and versatility I
+          apply to every project I undertake.
+        </p>
+      </div>
 
       {/* upper tech  */}
       <div className="mb-10"></div>
