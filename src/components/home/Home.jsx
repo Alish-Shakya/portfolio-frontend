@@ -1,5 +1,6 @@
 import React from "react";
 import AnimatedIntro from "./AnimatedIntro";
+import cvPDF from "../../assets/cv.pdf";
 
 const Home = () => {
   return (
@@ -29,11 +30,12 @@ const Home = () => {
           </a>
 
           <a
-            href="/path-to-your-cv.pdf"
-            download
+            href={cvPDF}
+            target="_blank" // opens in new tab
+            rel="noopener noreferrer"
             className="px-8 py-3 border-1 border-green-400 text-white font-semibold rounded-lg transform hover:-translate-y-1  transition duration-400"
           >
-            Download CV
+            View CV
           </a>
         </div>
       </div>
@@ -71,17 +73,20 @@ if (alish.hireable()) {
       {/* for small screen */}
       <div className="flex flex-nowrap justify-start gap-3 m-4 mt-10 md:hidden">
         <a
-          href="#contact"
+          href="https://wa.me/9779761814913?text=Hi%20Alish!%20I%20am%20interested%20in%20your%20services."
+          target="_blank"
+          rel="noopener noreferrer"
           className="px-6 py-2 border border-green-400 text-white font-semibold rounded-lg text-sm whitespace-nowrap"
         >
           Hire Me
         </a>
         <a
-          href="/path-to-your-cv.pdf"
-          download
+          href={cvPDF}
+          target="_blank" // opens in new tab
+          rel="noopener noreferrer"
           className="px-6 py-2 border border-green-400 text-white font-semibold rounded-lg text-sm whitespace-nowrap"
         >
-          Download CV
+          View CV
         </a>
       </div>
     </div>
