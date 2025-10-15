@@ -11,7 +11,7 @@ const Projects = () => {
       description:
         "A modern IT company website built with React and Tailwind, showcasing digital solutions and tech-driven services through an elegant, responsive design.",
       image: Vyomite,
-      link: "https://yourportfolio.com",
+      link: "https://vyomite.com.np/",
       github: "https://github.com/Alish-Shakya/portfolio",
     },
     {
@@ -20,7 +20,7 @@ const Projects = () => {
       description:
         "A sleek and engaging gym website designed to promote fitness programs and memberships, offering a clean and motivating digital presence.",
       image: Gym,
-      link: "#",
+      link: "https://gym-web-phi-nine.vercel.app/",
       github: "https://github.com/Alish-Shakya/BSc-CSIT-project",
     },
     {
