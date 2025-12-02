@@ -1,6 +1,5 @@
 import React from "react";
 import AnimatedIntro from "./AnimatedIntro";
-import cvPDF from "../../assets/cv.pdf";
 
 const Home = () => {
   return (
@@ -30,7 +29,7 @@ const Home = () => {
           </a>
 
           <a
-            href={cvPDF}
+            href="/cv.pdf"
             target="_blank" // opens in new tab
             rel="noopener noreferrer"
             className="px-8 py-3 border-1 border-green-400 text-white font-semibold rounded-lg transform hover:-translate-y-1  transition duration-400"
@@ -81,7 +80,7 @@ if (alish.hireable()) {
           Hire Me
         </a>
         <a
-          href={cvPDF}
+          href="/cv.pdf "
           target="_blank" // opens in new tab
           rel="noopener noreferrer"
           className="px-6 py-2 border border-green-400 text-white font-semibold rounded-lg text-sm whitespace-nowrap"
