@@ -30,7 +30,7 @@ const Navbar = () => {
       {/* nav social link */}
       <div className="flex items-center gap-6 md:gap-10 ml-5 md:mr-20 text-2xl">
         <a
-          href="https://www.Facebook.com"
+          href="https://www.Facebook.com/alish.shakya.982"
           target="_blank"
           rel="noopener noreferrer"
           aria-label="Facebook"
@@ -39,7 +39,7 @@ const Navbar = () => {
           <FacebookIcon />
         </a>
         <a
-          href="https://www.github.com"
+          href="https://www.github.com/Alish-Shakya"
           target="_blank"
           rel="noopener noreferrer"
           aria-label="Github"
@@ -48,7 +48,7 @@ const Navbar = () => {
           <GithubIcon />
         </a>
         <a
-          href="https://www.instagram.com"
+          href="https://www.linkedin.com/"
           target="_blank"
           rel="noopener noreferrer"
           aria-label="LinkedIn"
@@ -57,7 +57,7 @@ const Navbar = () => {
           <Linkedin />
         </a>
         <a
-          href="https://www.instagram.com"
+          href="https://www.instagram.com/_alish_shakya"
           target="_blank"
           rel="noopener noreferrer"
           aria-label="InstagramS"
