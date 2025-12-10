@@ -74,7 +74,7 @@ const Projects = () => {
         </div>
 
         {/* Desktop Grid View */}
-        <div className="hidden sm:grid sm:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-10">
+        <div className="hidden sm:grid sm:grid-cols-2 lg:grid-cols-2 gap-8 md:gap-10">
           {projects.map((project) => (
             <div
               key={project.id}

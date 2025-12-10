@@ -29,7 +29,7 @@ const Home = () => {
           </a>
 
           <a
-            href="/cv.pdf"
+            href="/updateCV.pdf"
             target="_blank" // opens in new tab
             rel="noopener noreferrer"
             className="px-8 py-3 border-1 border-green-400 text-white font-semibold rounded-lg transform hover:-translate-y-1  transition duration-400"
